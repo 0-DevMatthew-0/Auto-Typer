@@ -1,12 +1,12 @@
 set shell = createobject ("wscript.shell")
 
-strtext = inputbox ("Spam Message (Spammer made/coded by bolts)")
+strtext = inputbox ("Spam Message (Spammer made/coded by bolts. This is a VBScript also known at a visual basic script!)")
 strtimes = inputbox ("Spam Amount (Amount of messages)")
 strspeed = inputbox ("Spam Speed (How many per second. 1000 = 1 message per second, 100 = 10 messages per second)")
 strtimeneed = inputbox ("How long before the spamming starts. (Seconds)")
 
 If not isnumeric (strtimes & strspeed & strtimeneed) then
-msgbox "Hint: Use fucking numbers."
+msgbox "Hint: Use numbers."
 wscript.quit
 End If
 strtimeneed2 = strtimeneed * 1000
