@@ -1,2 +1,0 @@
-# Spammer
-Simple Spam Script
